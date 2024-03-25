@@ -1,0 +1,70 @@
+toan = float(input("Toan: "))
+van = float(input("Van: "))
+anh = float(input("Anh: "))
+
+diem_trung_binh = (toan + van + anh) / 3
+
+if diem_trung_binh < 5:
+    print("Không đạt")
+elif diem_trung_binh < 7:
+    print("Đạt")
+elif diem_trung_binh < 8:
+    print("Khá")
+else:
+    print("Giỏi")
+
+# Tính chỉ số BMI
+mass = float(input("Cân nặng (kg): "))
+height = float(input("Chiều cao (m): "))
+
+bmi = mass / (height ** 2)
+
+if bmi < 16:
+    print("Gầy cấp độ III")
+elif bmi < 17:
+    print("Gầy cấp độ II")
+elif bmi < 18.5:
+    print("Gầy cấp độ I")
+elif bmi < 25:
+    print("Bình thường")
+elif bmi < 30:
+    print("Béo phì cấp độ I")
+elif bmi < 40:
+    print("Béo phì cấp độ II")
+else:
+    print("Béo phì cấp độ III"
+
+
+# print("1")
+# a = 0
+# for i in range(0,100):
+#     if a % 3 == 0:
+#         print(a)
+#     a = a + 1
+
+# print("2")
+# a = 0
+# for i in range(0,50):
+#     if a % 2 == 0:
+#         print(a)
+#     a = a + 1
+
+
+
+
+# name = str(input("Type username here: "))
+# if name == "admin":
+#     password = input("Type password here: ")
+#     if password == "123456@Abc":
+#         print("wellcome")
+#     else:
+#         print("Wrong password")
+# else:
+#     print("Wrong username")
+
+# name = str(input("Type username here: "))
+# password = input("Type password here: ")
+# if name == "admin" and password == "123456@Abc":
+#     print("Wellcome")
+# else:
+#     print("Wrong username and password")
